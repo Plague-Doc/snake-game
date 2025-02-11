@@ -1,0 +1,41 @@
+body {
+    font-family: monospace;
+    background-color: #f2f3f4;
+    text-align: center;
+}
+
+#canvas {
+    border: 2px solid;
+}
+
+.display {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: 500px;
+    margin: 1.5rem auto;
+}
+
+#high {
+    text-align: start;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+
+#score {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#speed {
+    text-align: end;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+}
+
+#reset {
+    font-family: monospace;
+    font-size: 1rem;
+    margin: 1.5rem 0 0.5rem 0;
+    padding: 0.25rem 0.75rem;
+}
